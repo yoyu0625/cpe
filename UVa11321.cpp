@@ -7,9 +7,10 @@ bool cmp(int x,int y){
     if((x%M)!=(y%M)){
     	return (x%M)<(y%M);
     	}
-    else if((x%2)*(y%2)){
-    	return x>y;}
-    else if((x%2==0)&&(y%2==0)){
+    else if((x%2)*(y%2)){   //奇數
+    	return x>y;
+        }
+    else if((x%2==0)&&(y%2==0)){   //偶數
      return x<y;}
     else{
         return x%2;
