@@ -1,3 +1,4 @@
+//計算與敵人差距
 #include <iostream>
 using namespace std;
 
