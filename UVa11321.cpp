@@ -1,3 +1,4 @@
+//排列
 #include <iostream>
 #include <algorithm>
 using namespace std;
