@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int a,b;
+    long long a,b;
     while(cin>>a>>b){
         b=abs(a-b);
         cout<<b<<endl;
