@@ -1,4 +1,4 @@
-//排列
+//排列大奇數放小偶數放前
 #include <iostream>
 #include <algorithm>
 using namespace std;
