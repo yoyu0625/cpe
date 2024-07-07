@@ -14,6 +14,9 @@ bool cmp(int x,int y){
 	if((x%2==0)&&(y%2==0)){ //偶數
 		return x<y;
 	}
+	else{
+		return x%2;
+	}
 }
 
 int main(){
