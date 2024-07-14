@@ -23,6 +23,7 @@ int main(){
             b*=2;
             b+=S2[i]-'0';
         }
+        cout << "Pair #" << Case;
         if(gcd(a,b)>1){
             cout<<": All you need is love!"<<endl;
         }
